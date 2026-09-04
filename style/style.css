@@ -1,0 +1,17 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.project-span {
+    font-family: Nunito;
+    font-size: 25px;
+    font-weight: 400;
+    color:#828282;
+    paragraph-spacing: 24px;
+}
+
