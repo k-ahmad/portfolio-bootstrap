@@ -9,6 +9,7 @@
 .contact {
     background-color: #f8f9fa;
 }
+
 .navbar {
     padding-left: 35px;
     padding-right: 35px;
@@ -24,7 +25,56 @@ main {
     font-family: Nunito;
     font-size: 25px;
     font-weight: 400;
-    color:#828282;
-    paragraph-spacing: 24px;
+    color: #828282;
+    /* paragraph-spacing: 24px; */
 }
 
+.project-details-odd {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 0;
+}
+
+.project-img-odd {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.project-details-even {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.project-img-even {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 0;
+}
+
+@media (min-width: 998px) {
+    .project-details-odd {
+        border-top-right-radius: 0;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .project-img-odd {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 0;
+    }
+
+    .project-details-even {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 0;
+    }
+
+    .project-img-even {
+        border-top-right-radius: 0;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+}
